@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oleo+Script+Swash+Caps:wght@700&family=Poppins:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oleo+Script+Swash+Caps:wght@700&family=Poppins:wght@400;600&family=Roboto&display=swap');
+/*------------------------------Newses----------------------------------------*/
+root{
+	--primary-color:  #fff;
+	--secondary-color: #000;
+	--link-color:#CC0000 ;
+
+	--main-padding:2rem 10rem ;
+	--secondary-padding: 5rem 0;
+
+	
+	}
+.white-theme{
+	--primary-color: #28282B;
+	--secondary-color: #fff;
+	--link-color:#fff;
+}
+
+/*------------------sec-1-----------------------*/
+.sec-1{
+	min-height: 100vh;
+	padding: 2rem 10rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	background-color:var(--primary-color) ;
+}
+
+.sec-1-img img{
+	height: 100%;
+	width: 100%;
+}
+.sec-1-link{
+	margin: 10px 5px;
+	font-size: 20px;
+}
+.sec-1-link a{
+	color: var(--link-color);
+}
+.seven{
+	
+	grid-column: span 3;
+
+}
+/*---------------------sec2-------------------------*/
+.sec-2{
+	padding: 2rem 10rem;
+	background-color:var(--primary-color) ;
+}
+.num-news{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.num-1{
+	display: inline-flex;
+}
+.num-1 a{
+	margin: 0 5px;
+	margin-top: 25px;
+	text-decoration: none;
+	font-size: 20px;
+	color: var(--link-color);
+}
+.num-1 span{
+	font-size: 50px;
+	margin: 15px;
+	color: var(--link-color);
+}
+/*----------------------------------------------Reels-----------------------------------------*/
+.reels{
+	padding: 2rem 10rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 40px;
+	background-color:var(--primary-color) ;
+}
+.reels-content{
+	position: relative;
+	overflow: hidden;
+}
+.reels-img{
+	background-image: url(pic1.jpg);
+	
+	background-repeat:no-repeat ;
+	background-size:100% 100%;
+	width: 100%;
+	height: 400px;
+
+}
+#backVideo{
+	 display: none;
+	 height: 100%;
+
+}
+
+.reels-overlay{
+	position: absolute;
+	top: 60%;
+	margin-left: 20px;
+}
+.reels-overlay h4{
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 800;
+    color:blue;
+}
+span{
+	color: blue;
+	font-size: 20px;
+	font-weight: 800;
+
+}
+.fa-solid{
+	
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	color: blue;
+}
+#play{
+	font-size: 40px;
+	display: none;
+}
+#pause{
+	font-size: 40px;
+	display: none;
+}
+/*------------------------contact----------------------*/
+.contact-body{
+	min-height: 60vh;
+	background-color:var(--primary-color) ;
+}
+.contact-main{
+	display: flex;
+	padding: 2rem 10rem;
+	
+
+}
+.user-space{
+	border: 1px solid #ccc;
+	padding: 20px 30px;
+	margin-right: 30px;
+	width: 100%;
+	height: auto;
+	
+	text-align: center;
+}
+.user-space input,.user-space textarea {
+	width: 100%;
+	padding: 15px;
+	margin: 15px 0;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	background: #f0f0f0; 
+}
+
+.user-space textarea{
+	height: 120px;
+}
+.form h3{
+	text-align: left;
+}
+.msg-btn{
+	width: 100%;
+	border: none;
+	color: white;
+	background-color: blue;
+	padding: 12px 20px;
+}
+.contact-contant{
+	padding-left:  10px;
+}
+.contact-contant h1{
+	padding-bottom: 20px;
+}
+.contact-contant p{
+	line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

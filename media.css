@@ -1,0 +1,372 @@
+/*------------------------------------------------------media width 700px-------------------------------------------------*/
+@media(max-width: 700px){
+	
+	.logo{
+		
+		height: 10vh;
+		font-size: 35px;
+	}
+	.addverticement{
+	
+	display: flex;
+	justify-content: center;
+	height: 250px;
+	}
+    .add{
+	height: 150px;
+	width: 400px; 
+    }
+    .add img{
+	height: 100%;
+	width: 100%;
+     }
+     /*------------navbar---------------*/
+  .Head{
+	
+   padding:0 0;
+	position: sticky;
+	top: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+  
+}
+.Head img{
+	width: 6.5rem;
+	min-height:2.5rem;
+}
+.nav-link{
+	position: absolute;
+	top: 100%;
+	left: -250px;
+	height: 475px;
+	width: 250px;
+	background-color: #023020;
+	transition: 1s;
+
+}
+
+.nav-link ul{
+     display: flex;
+     flex-direction: column;
+     margin-top: 20px;
+     
+}
+.nav-link ul li {
+	list-style: none;
+  
+   margin: 10px;
+  border-bottom: 1px solid white;
+   height: 35px;
+     text-align: center;
+}
+.nav-link ul li a {
+
+   text-decoration: none;
+	color:var(--secondary-color);
+  font-weight: 600;
+	
+
+}
+
+.Sign-in a{
+	display: flex;
+   display: none;
+
+	
+}
+.Sign-in i{
+	color: var(--secondary-color);
+	font-size: 25px;
+}
+.Sign-in h3{
+	display: none;
+	
+}
+
+.search-input{
+	display: flex;
+}
+.search{
+	position: relative;
+}
+.search input{
+	display: none;
+	font-size:15px ;
+	border: none;
+	padding:10px 10px;
+	outline: none;
+	background: var(--primary-color) ;
+	color: var(--secondary-color);
+}
+
+.search i{
+	color:var(--secondary-color);
+	position: relative;
+	top: 25%;
+	left: -100%;
+	margin-right: 5px;
+}
+.brightness{
+	padding: 10px 10px;
+}
+.brightness i{
+	position: relative;
+	
+	left: -100%;
+	cursor: pointer;
+   padding: 0;
+	margin-right: 7px;
+	
+}
+#bar-menu{
+	display: block;
+	color: black;
+	font-size:35px;
+	position: absolute;
+	left: 5%;
+}
+#xmark{
+	display: none;
+	color: black;
+	font-size:35px;
+	position: absolute;
+	left: 5%;
+}
+	
+
+/*------------Main------------------*/
+.today-news{
+
+	padding:0;
+}
+.today-news h1{
+	font-size: 20px;
+	padding: 20px 0;
+	
+}
+.news-feeds {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+.news-overlay-ones{
+	position: absolute;
+	background-color: var(--primary-color);
+	top: 100%;
+	left: 0;
+	height: 0;
+	width: 100%;
+	opacity: 0;
+	color: color:var(--secondary-color);
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+.news-overlay-ones a{
+	 color: var(--link-color);
+}
+.overlay-content-ones{
+	padding: 15px;
+}
+.newes:hover .news-overlay-ones{
+	opacity:1;
+	height: 40%;
+	top:60%;
+	transition: .5s;
+}
+.one a{
+   font-size: 10px;
+}
+/*----------------------news add-------------------*/
+
+.container{
+	display: flex;
+	flex-direction: column;
+}
+
+.updates-one{
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+}
+.contant{
+	border: 1px solid black;
+	padding: 10px;
+}
+.contant h4{
+	display:block;
+	font-size: 20px;
+
+}
+.contant div{
+	padding-top: 5px;
+	display: none;
+}
+.contant div a{
+    font-size: 20px;
+}
+.contant.open div{
+	display: block;
+}
+
+.container-add{
+	width: 30%;
+}
+.add2{
+	
+	padding-left: 20px;
+}
+.add2 img{
+	padding-top: 10px;
+	width: 100%;
+}
+/*---------------------------buiness----------------------*/
+.Buiness-news{
+
+    padding: 2rem 0;
+
+}
+.today-news h1{
+	font-size: 30px;
+	
+}
+.buiness-flex{
+	display:flex;
+	flex-direction: column;
+	
+}
+.news-feeds-ones{
+display: flex;
+flex-direction: column;
+width: 95%;
+padding: 10px;
+}
+.buiness-side{
+	width: 100%;
+	margin-left: 0;
+	margin-top: 50px;
+	min-height: 90vh;
+
+}
+.side-bar-content{
+	height: 120px;
+}
+.side-content{
+	width: 55%;
+}
+.side-content a{
+	 font-size: 20px;
+	 font-weight: 500;
+	
+}
+.side-img{
+	width: 45%;
+	height: 100px;
+	
+}
+.last{
+	border-bottom: none;
+}
+.side-img img{
+	width: 100%;
+	height: 100%;
+}
+.side-content{
+	padding: 0;
+}
+.time{
+   position: relative;
+   top: 35%;
+
+}
+/*---------------------------Sports----------------------*/
+.Sports-news{
+	    padding: 2rem 0;
+
+}
+.today-news h1{
+	font-size: 30px;
+	
+}
+.Sports-flex{
+	display:flex;
+	flex-direction: column;
+	
+}
+.news-feeds-Sports{
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+	padding: 10px;
+}
+.Sports-newes{
+	position: relative;
+	
+	
+}
+
+.Sports-side{
+	width: 100%;
+	margin-left: 0;
+	margin-top: 50px;
+	min-height: 75vh;
+}
+
+.Sports-side-heading{
+	
+	background: red;
+	height:4rem;
+}
+.Sports-side-heading h3{
+	font-size: 25px;
+	padding: 17px 15px;
+}
+
+/*------------------------container-2---------------------------*/
+
+.container-2{
+	display: flex;
+	flex-direction: column;
+}
+
+.cont-3{
+	display: flex;
+	flex-direction: column;
+
+}
+.con-img{
+	
+	min-width: 95%;
+	
+	
+}
+.con-img img{
+	width: 100%;
+	height: 100%;
+}
+.con-content{
+	padding: 10px 5px;
+
+}
+
+
+/*--------------------------Foooter--------------------------------*/
+.Footer{
+	height: 7vh;
+	padding: 0 1rem;
+}
+.Footer h1{
+	display: none;
+}
+.footer{
+	display: none;
+}
+.footer-end{
+	padding-top: 12px;
+	justify-content: center;
+	align-items:center ;
+}
+.footer-end h4{
+	display: none;
+}
+
+}
